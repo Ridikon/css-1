@@ -1,0 +1,29 @@
+html {
+    font-style: 16px;
+}
+* {
+    font-family: 'Chelsea Market', cursive;
+}
+.red {
+    color: red;
+}
+.big {
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+div ~ p {
+    color: green;
+}
+p:hover {
+    color: yellow;
+}
+/*p::first-letter {*/
+/*    color: blue;*/
+/*}*/
+p::before {
+    content: "<";
+}
+p::after {
+    content: ">";
+    color: rgba(137, 43, 0, 0.2);
+}
